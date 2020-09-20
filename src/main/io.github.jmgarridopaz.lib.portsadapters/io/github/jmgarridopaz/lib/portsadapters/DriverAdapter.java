@@ -1,8 +1,19 @@
 package io.github.jmgarridopaz.lib.portsadapters;
 
 
-public interface DriverAdapter {
+public abstract class DriverAdapter<T> {
+
+	private final T driverPort;
 	
-	public void run ( String[] args );
+	protected DriverAdapter ( T driverPort ) {
+		this.driverPort = driverPort;
+	}
+
+	
+	protected T driverPort() {
+		return this.driverPort;
+	}
+
+	public abstract void run ( String[] args );
 
 }

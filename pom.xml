@@ -5,13 +5,13 @@
 	
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>io.github.jmgarridopaz.lib</groupId>
-	<artifactId>ports-adapters</artifactId>
+	<groupId>io.github.jmgarridopaz.lib.portsadapters</groupId>
+	<artifactId>lib-portsadapters</artifactId>
 	<version>1.0.0</version>
     
 	<packaging>jar</packaging>
 
-	<name>My Ports and Adapters Pattern (Hexagonal Architecture) Library</name>
+	<name>Ports and Adapters Pattern (Hexagonal Architecture) Library</name>
 
 	<properties>
         <!-- Char encoding -->
